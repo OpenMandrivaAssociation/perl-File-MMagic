@@ -15,6 +15,7 @@ Source:		http://www.cpan.org/modules/by-module/File/%{module}-%{version}.tar.bz2
 BuildRequires:	perl-devel
 %endif
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This perl library uses perl5 objects to guess file type from filename and/or
