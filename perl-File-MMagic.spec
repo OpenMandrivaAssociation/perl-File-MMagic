@@ -1,14 +1,14 @@
 %define	modname	File-MMagic
-%define	modver	1.27
+%define modver 1.29
 
 Summary:	Guess file type from filename and/or filehandle
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	7
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
-Source0:	http://www.cpan.org/modules/by-module/File/%{modname}-%{modver}.tar.bz2
+Source0:	http://www.cpan.org/modules/by-module/File/File-MMagic-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 
@@ -33,4 +33,5 @@ make test
 %doc README.en 
 %{perl_vendorlib}/File
 %{_mandir}/man3/*
+
 
