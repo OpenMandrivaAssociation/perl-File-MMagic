@@ -1,5 +1,5 @@
 %define	modname	File-MMagic
-%define modver 1.29
+%define modver 1.30
 
 Summary:	Guess file type from filename and/or filehandle
 Name:		perl-%{modname}
@@ -33,5 +33,6 @@ make test
 %doc README.en 
 %{perl_vendorlib}/File
 %{_mandir}/man3/*
+
 
 
