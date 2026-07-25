@@ -3,12 +3,12 @@
 
 Summary:	Guess file type from filename and/or filehandle
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	8
+Version:	%{modver}
+Release:	9
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}/
-Source0:	http://www.cpan.org/modules/by-module/File/File-MMagic-%{modver}.tar.gz
+Url:		https://metacpan.org/dist/File-MMagic
+Source0:	https://cpan.metacpan.org/authors/id/K/KN/KNOK/File-MMagic-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(Test::More)
